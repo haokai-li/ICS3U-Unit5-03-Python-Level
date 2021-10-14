@@ -5,35 +5,35 @@
 # This Program is about level
 
 
-def check_level(string):
+def check_level(level):
     # This function check the level
 
     # process
-    if string == "4+":
+    if level == "4+":
         answer_string = 97
-    elif string == "4":
+    elif level == "4":
         answer_string = 90
-    elif string == "4-":
+    elif level == "4-":
         answer_string = 84
-    elif string == "3+":
+    elif level == "3+":
         answer_string = 78
-    elif string == "3":
+    elif level == "3":
         answer_string = 75
-    elif string == "3-":
+    elif level == "3-":
         answer_string = 71
-    elif string == "2+":
+    elif level == "2+":
         answer_string = 68
-    elif string == "2":
+    elif level == "2":
         answer_string = 64
-    elif string == "2-":
+    elif level == "2-":
         answer_string = 61
-    elif string == "1+":
+    elif level == "1+":
         answer_string = 58
-    elif string == "1":
+    elif level == "1":
         answer_string = 54
-    elif string == "1-":
+    elif level == "1-":
         answer_string = 51
-    elif string == "R":
+    elif level == "R":
         answer_string = 0
     else:
         answer_string = -1
