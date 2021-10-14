@@ -10,33 +10,33 @@ def check_level(string):
 
     # process
     if string == "4+":
-        answer_string = "97%"
+        answer_string = 97
     elif string == "4":
-        answer_string = "90%"
+        answer_string = 90
     elif string == "4-":
-        answer_string = "84%"
+        answer_string = 84
     elif string == "3+":
-        answer_string = "78%"
+        answer_string = 78
     elif string == "3":
-        answer_string = "75%"
+        answer_string = 75
     elif string == "3-":
-        answer_string = "71%"
+        answer_string = 71
     elif string == "2+":
-        answer_string = "68%"
+        answer_string = 68
     elif string == "2":
-        answer_string = "64%"
+        answer_string = 64
     elif string == "2-":
-        answer_string = "61%"
+        answer_string = 61
     elif string == "1+":
-        answer_string = "58%"
+        answer_string = 58
     elif string == "1":
-        answer_string = "54%"
+        answer_string = 54
     elif string == "1-":
-        answer_string = "51%"
+        answer_string = 51
     elif string == "R":
-        answer_string = "0%"
+        answer_string = 0
     else:
-        answer_string = "-1"
+        answer_string = -1
 
     return answer_string
 
@@ -52,7 +52,7 @@ def main():
     checked_level = check_level(user_string)
 
     # output
-    print("Your secore percentage is {}".format(checked_level))
+    print("Your secore percentage is {}%".format(checked_level))
 
     print("\nDone.")
 
