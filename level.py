@@ -52,7 +52,7 @@ def main():
     checked_level = check_level(user_string)
 
     # output
-    print("Your secore percentage is {}%".format(checked_level))
+    print("Your score percentage is {}%".format(checked_level))
 
     print("\nDone.")
 
