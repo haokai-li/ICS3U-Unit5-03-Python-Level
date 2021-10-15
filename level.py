@@ -52,7 +52,10 @@ def main():
     checked_level = check_level(user_string)
 
     # output
-    print("Your score percentage is {}%".format(checked_level))
+    if checked_level == -1:
+        print("This is not a level.")
+    else:
+        print("Your score percentage is {}%".format(checked_level))
 
     print("\nDone.")
 
